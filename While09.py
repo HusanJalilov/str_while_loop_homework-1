@@ -8,9 +8,11 @@ def main(s):
     """
     i=0
     j=0
+    x=0
     while i<len(s):
         m=int(s[i])
-        if m.isdigit():
-            m+=m
+        if type(m)==int:
+            x+=m
         i+=1
-    return m
+    return x
+print(main('13'))
