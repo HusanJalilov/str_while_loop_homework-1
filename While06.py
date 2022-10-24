@@ -10,7 +10,7 @@ def main(s):
     i=0
     j=0
     new=['a','e','i','o','u','A','E','I','O','U']
-    while i<len(s):
+    while i<len(s)+1:
         if not s[i] in new:
             j+=1
         
