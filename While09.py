@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    j=0
+    while i<len(s):
+        m=int(s[i])
+        if m.isdigit():
+            m+=m
+        i+=1
+    return m

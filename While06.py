@@ -6,4 +6,14 @@ def main(s):
         consonant: other than vowels(a, e, i, o, u)
     Returns:
         int: return answer
-    """
+"""
+    i=0
+    j=0
+    new=['a','e','i','o','u','A','E','I','O','U']
+    while i<len(s):
+        if not s[i] in new:
+            j+=1
+        
+        i+=1
+    return j
+print(main("CodeschoolUz"))
